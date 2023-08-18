@@ -7,3 +7,6 @@ def inicio(request):
 
 def shops(request):
     return render(request, 'shops.html')
+
+def dashboard(request):
+    return render(request, 'dashboard.html')
