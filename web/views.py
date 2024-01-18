@@ -10,3 +10,6 @@ def shops(request):
 
 def dashboard(request):
     return render(request, 'dashboard.html')
+
+def feedback(request):
+    return render(request, 'feedback.html')

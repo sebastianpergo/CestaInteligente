@@ -14,13 +14,16 @@
               <img src="{% static 'imgs/Logo.ico' %}">
             </div>
             <nav>
+                <ul></ul>
                <ul class="nav-links">
+                    <li><a href="{% url 'inicio' %}">Inicio</a></li>
                     <li><a href="{% url 'dashboard' %}">Compare y Ahorre</a></li>
                     <li><a href="{% url 'shops' %}">Retails</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="{% url 'feedback' %}">Feedback</a></li>
+              </ul>     
+          </ul>     
                </ul>            
             </nav>
-            <a class="btn" href="#"><button>Contact</button></a>
         </header>
         <span class="background">
             <span class="centering">
@@ -57,11 +60,11 @@
                         <div class="article-preview">
                             <h2>D1</h2>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-                                Praesent in mauris eu tortor porttitor accumsan. 
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-                                Praesent in mauris eu tortor porttitor accumsan. 
-                                <a href="#" class="read-more" title="Read More">
+                                Tiendas D1 es una cadena de tiendas de descuento tipo hard discount en 
+                                Colombia. D1, es la compañía con más puntos de venta en Colombia, alcanza 
+                                2.000 tiendas, cubriendo el 87% del territorio, en 28 departamentos y 450 
+                                municipios.
+                                <a href="https://d1.com.co/" class="read-more" title="Read More">
                                     Read more
                                 </a>
                             </p>
@@ -81,10 +84,11 @@
                         <div class="article-preview">
                             <h2>Jumbo</h2>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent in mauris eu tortor porttitor accumsan. 
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent in mauris eu tortor porttitor accumsan. 
-
-                                <a href="#" class="read-more">
+                                Jumbo es una cadena de hipermercados chilena, con presencia también en
+                                Argentina y Colombia. Es propiedad del grupo Cencosud. Destaca como líder 
+                                en el comercio minorista en América Latina. 
+                                
+                                <a href="https://www.tiendasjumbo.co/" class="read-more">
                                     Read more
                                 </a>
                             </p>
@@ -102,10 +106,11 @@
                         <div class="article-preview">
                             <h2>Carulla</h2>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent in mauris eu tortor porttitor accumsan. 
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent in mauris eu tortor porttitor accumsan. 
+                                Carulla es una cadena de supermercados colombiana, fundada en 1905 por
+                                Alejandro Carulla Vila. En 2013, Carulla contaba con 175 puntos de venta
+                                en Colombia, de los cuales 167 son supermercados y 8 son tiendas de conveniencia.
 
-                                <a href="#" class="read-more">
+                                <a href="https://www.carulla.com/" class="read-more">
                                     Read more
                                 </a>
                             </p>
@@ -122,10 +127,13 @@
                         <div class="article-preview">
                             <h2>Makro</h2>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent in mauris eu tortor porttitor accumsan. 
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent in mauris eu tortor porttitor accumsan. 
+                                Makro es una cadena de supermercados mayoristas de origen holandés,
+                                fundada en 1968. En la actualidad Makro tiene abiertas más de 700 tiendas en 
+                                tres continentes; esto lo convierte en la empresa de ventas al por 
+                                mayor más grande del mundo y es el tercer grupo mundial en distribución
+                                
 
-                                <a href="#" class="read-more">
+                                <a href="https://www.makro.com.co/" class="read-more">
                                     Read more
                                 </a>
                             </p>
